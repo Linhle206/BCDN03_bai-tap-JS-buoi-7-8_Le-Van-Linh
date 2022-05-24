@@ -23,39 +23,38 @@
             <button onclick="enterZ()" type="button" class="btn btn-primary">Nhập</button>
         </form>
         <div class="result row">
-            <div class="sumP col-4 mt-3">
+            <div class="sumP col-3 mt-3">
                 <button onclick="sumP()" type="button" class="btn btn-primary mt-3 mb-3">Tổng các số dương</button>
                 <p class="alert alert-primary"></p>
             </div>
-            <div class="countP col-4 mt-3">
+            <div class="countP col-3 mt-3">
                 <button onclick="countP()" type="button" class="btn btn-primary mt-3 mb-3">Đếm số dương</button>
                 <p class="alert alert-primary"></p>
             </div>
-            <div class="findMin col-4 mt-3">
+            <div class="findMin col-3 mt-3">
                 <button onclick="findMin()" type="button" class="btn btn-primary mt-3 mb-3">Số nhỏ nhất</button>
                 <p class="alert alert-primary"></p>
             </div>
-            <div class="findPMin col-4 mt-3">
+            <div class="findPMin col-3 mt-3">
                 <button onclick="findPMin()" type="button" class="btn btn-primary mt-3 mb-3">Số dương nhỏ nhất</button>
                 <p class="alert alert-primary"></p>
             </div>
-            <div class="findLastEven col-4 mt-3">
+            <div class="findLastEven col-3 mt-3">
                 <button onclick="findLastEven()" type="button" class="btn btn-primary mt-3 mb-3">Số chẵn cuối cùng</button>
                 <p class="alert alert-primary"></p>
             </div>
-            <div class="comparePN col-4 mt-3">
+            <div class="comparePN col-3 mt-3">
                 <button onclick="comparePN()" type="button" class="btn btn-primary mt-3 mb-3">So sánh số lượng số âm, dương</button>
                 <p class="alert alert-primary"></p>
-            </div>
-            <!-- <div class="sort col-4 mt-3">
-                <button onclick="sort()" type="button" class="btn btn-primary mt-3 mb-3">Sắp xếp</button>
-                <p class="alert alert-primary"></p>
-            </div> -->
-            <div class="findFirstPrime col-4 mt-3">
-                <button type="button" class="btn btn-primary mt-3 mb-3">Tổng các số dương</button>
+            </div>  
+            <div class="findFirstPrime col-3 mt-3">
+                <button onclick="findFirstPrime()" type="button" class="btn btn-primary mt-3 mb-3">Số nguyên tố đầu tiên</button>
                 <p class="alert alert-primary"></p>
             </div>
-            <div class="countZ col-4 mt-3">
+            <div class="sort col-3 mt-3">
+                <button onclick="sortUp()" type="button" class="btn btn-primary mt-3 mb-3">Sắp xếp tăng dần</button>
+            </div>
+            <div class="countZ col-3 mt-3">
                 <div class="inputR">
                     <div class="form-group">
                         <label for="num1">Nhập số thực</label>
@@ -63,26 +62,23 @@
                     </div>
                     <p class="alert alert-success"></p>
                 </div>
-                <button type="button" class="btn btn-primary mt-3 mb-3">Số số nguyên</button>
-                <p class="alert alert-primary"></p>
+                <button onclick="enterR()" type="button" class="btn btn-primary mt-3 mb-3">Nhập</button>
+                <button onclick="countZ()" type="button" class="btn btn-primary mt-3 mb-3">Số số nguyên</button>
+                <p class="printCount alert alert-primary"></p>
             </div>
             <div class="change2Num col-4 mt-3">
                 <div class="row">
                     <div class="form-group col">
                         <label for="num2">Nhập vị trí số đầu tiên</label>
                         <input type="number" class="form-control" id="num2">
-                        <p class="alert alert-success mt-3"></p>
 
                     </div>
                     <div class="form-group col">
                         <label for="num3">Nhập vị trí số thứ hai</label>
                         <input type="number" class="form-control" id="num3">
-                        <p class="alert alert-success mt-3"></p>
-
                     </div>
                 </div>
-                <button type="button" class="btn btn-primary mb-3">Đổi vị trí</button>
-                <p class="alert alert-primary"></p>
+                <button onclick="change2Num()" type="button" class="btn btn-primary mb-3">Đổi vị trí</button>
             </div>
 
         </div>
